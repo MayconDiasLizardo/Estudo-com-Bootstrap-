@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- define a viewport-->
+        <title>Bootstrap - Projeto Completo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- adicionar CSS Bootstrap localmente -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         <!-- CSS personalizado -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"><!-- Pegar a fonte no googlefont-->
+	</head>
+	<body data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
+
+		<!-- Menu da Aplicação -->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#page-top index.html">Bootstrap</a>
+					<button type="" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao"><!--id será o target do button acima acima -->
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#inicio">Início</a></li>
+						<li><a href="#servicos">Serviços</a></li>
+						<li><a href="#portfolio">Portfólio</a></li>
+						<li><a href="#quemsomos">Quem somos</a></li>
+						<li><a href="#localizacao">Localização</a></li>
+						<li><a href="#contato">Contato</a></li>
+						<li><a href="painel.html">Painel</a></li>
+						<li><a href="login.html">Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- // fim Menu da Aplicação -->
+		
+
+		<!-- Slider da Aplicação -->
+		<div class="divslider">
+			<div class="container">
+				<div class="col-xs-12" id="inicio">
+					<div id="sliderPrincipal" class="carousel slide" data-ride="carousel">
+
+						<ol class="carousel-indicators">
+							<li data-target="#sliderPrincipal" data-slide-to="0" class="active"></li>
+							<li data-target="#sliderPrincipal" data-slide-to="1"></li>
+							<li data-target="#sliderPrincipal" data-slide-to="2"></li>
+						</ol>
+						
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img style="margin:auto" src="img/slider/slider1.jpg" alt="Imagem Slider 1">
+							</div>
+							<div class="item">
+								<img style="margin:auto" src="img/slider/slider2.jpg" alt="Imagem Slider 2">
+							</div>
+							<div class="item">
+								<img style="margin:auto" src="img/slider/slider3.jpg" alt="Imagem Slider 3">
+							</div>
+						</div>
+
+						<a class="left carousel-control" href="#sliderPrincipal" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+
+						<a class="right carousel-control" href="#sliderPrincipal" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!-- // Fim Slider da Aplicação -->
+
+
+		<!-- Serviços -->
+		<section id="servicos">
+			<div class="container bgheader">
+				
+				<div class="row bgheader">
+					<div class="col-xs-12">
+						<div class="page-header">
+							<h1>Serviços <small>Conheça o que fazemos</small></h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4 col-md-4 col-xs-4 servicos_item">
+						<div><img src="img/service/servico1.jpg" class="img-responsive img-circle"></div>
+						<h4>E-commerce</h4>
+						<p>Descrição do serviço apresentado. Descrição do serviço apresentado.</p>
+					</div>
+					<div class="col-sm-4 col-md-4 col-xs-4 servicos_item">
+						<div><img src="img/service/servico2.jpg" class="img-responsive img-circle"></div>
+						<h4>Desenvolvimento de Sites</h4>
+						<p>Descrição do serviço apresentado. Descrição do serviço apresentado.</p>
+					</div>
+					<div class="col-sm-4 col-md-4 col-xs-4 servicos_item">
+						<div><img src="img/service/servico3.jpg" class="img-responsive img-circle"></div>
+						<h4>E-commerce</h4>
+						<p>Descrição do serviço apresentado. Descrição do serviço apresentado.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<a href="#" class="btn btn-default btn-lg servicos__btn_todososservicos">Clique aqui para ver todos os nossos serviços</a>
+						</div>
+					</div>
+				
+				</div>
+			
+			</div>
+		</section>
+		<!-- // Fim Serviços -->
+
+
+		<!-- Portfólio -->
+		<section id="portfolio" class="div_colorida">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						
+						<div class="page-header">
+							<h1>Portfolio <small>Conheça nosso trabalho</small></h1>
+						</div>					
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="portfolio_item">
+							<div><img src="img/portfolio/portfolio1.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do cliente</h4>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="portfolio_item">
+							<div><img src="img/portfolio/portfolio2.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do cliente</h4>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="portfolio_item">
+							<div><img src="img/portfolio/portfolio3.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do cliente</h4>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="portfolio_item">
+							<div><img src="img/portfolio/portfolio4.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do cliente</h4>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="portfolio_item">
+							<div><img src="img/portfolio/portfolio5.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do cliente</h4>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="portfolio_item">
+							<div><img src="img/portfolio/portfolio6.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do cliente</h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<a href="portfolio.html" class="btn btn-default btn-lg servicos__btn_todososservicos">Clique aqui e conheça os nossos clientes</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // Fim Portifólio -->
+
+
+		<!-- Quem somos -->
+		<section id="quemsomos">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="page-header">
+							<h1>Quem somos <small>Conheça nossa história</small></h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-md-8 text-right">
+							<h4>Texto sobre a empresa</h4>
+							<p>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
+						</div>
+						<div class="col-md-4">
+						<img src="img/service/servico1.jpg" class="img-responsive img-circle">
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="col-md-4">
+						<img src="img/service/servico2.jpg" class="img-responsive img-circle">
+						</div>
+						<div class="col-md-8">
+							<h4>Texto sobre a empresa</h4>
+							<p>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="page-header">
+							<h1>Nossa Equipe<small> Conheça nossos colaboradores</small></h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-3">
+						<div>
+							<div><img src="img/portfolio/portfolio1.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do funcionário</h4>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div>
+							<div><img src="img/portfolio/portfolio2.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do funcionário</h4>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div>
+							<div><img src="img/portfolio/portfolio3.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do funcionário</h4>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div>
+							<div><img src="img/portfolio/portfolio4.jpg" class="img-responsive grayscale"></div>
+							<h4>Nome do funcionário</h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<a href="quemsomos.html" class="btn btn-default btn-lg servicos__btn_todososservicos">Clique aqui e conheça nossa empresa</a>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<!-- // Fim Quem Somos -->
+
+
+		<!-- Localização -->
+		<section id="localizacao" class="div_colorida">
+			<div class="container">
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="page-header">
+							<h1>Localização <small>Veja onde estamos</small></h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sbr!4v1492927758479!6m8!1m7!1sUA9li3oq7YdFua0B_r-TnA!2m2!1d-3.048489111306366!2d-60.00965181794093!3f276.85457129099586!4f3.17238771778095!5f0.7820865974627469" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- // Fim Localização -->
+
+		<!-- Contato -->
+		<section id="contato">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="page-header">
+							<h1>Contato <small>Fale conosco</small></h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row contato">
+					<div class="col-xs-12">
+
+						<form name="frmContato" id="formContato">
+							<div class="row">
+								<div class="col-md-12">
+									<p class="alert alert-success">Por favor, preencha o formulário abaixo para entrar em contato conosco.</div>
+								</div>
+							</div>
+							<div class="row" >
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control input-lg" placeholder="Qual seu nome? *" riquired>
+									</div>
+
+									<div class="form-group">
+										<input type="email" class="form-control input-lg" placeholder="Qual seu E-mail? *" riquired>
+									</div>
+
+									<div class="form-group">
+										<input type="tel" class="form-control input-lg" placeholder="Qual seu Telefone?" riquired>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<textarea class="form-control input-lg" placeholder="Sua mensagem *"></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="alert alert-success">Envio realizado!</div>
+								</div>
+								<div class="col-sm-6">
+									<button type="submit" class="btn btn-success btn-lg">Enviar Formulário</button>
+								</div>
+							</div>
+						</form>
+							
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+
+		<!-- // Fim Contato -->
+
+
+		<!-- Rodapé -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10">
+						Informações gerais sobre a empresa, endereço, e-mail e etc!
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- // Fim do Rodapé -->
+        
+        <script src="js/jquery-3.2.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script> 
+	</body>
+</html>
